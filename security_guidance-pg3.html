@@ -1,0 +1,1124 @@
+<!DOCTYPE html>
+<html lang="en" class="govuk-template no-js">
+
+<head>
+  <meta charset="utf-8">
+  <title>Security - Cloud Centre of Excellence</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b0c0c">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <link rel="shortcut icon" sizes="16x16 32x32 48x48" href="/assets/images/favicon.ico" type="image/x-icon">
+  <link rel="mask-icon" href="/assets/images/govuk-mask-icon.svg" color="#0b0c0c">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/govuk-apple-touch-icon-180x180.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="/assets/images/govuk-apple-touch-icon-167x167.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/govuk-apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" href="/assets/images/govuk-apple-touch-icon.png">
+
+  <meta name="og:title" content="Layout">
+  <meta name="description" content="Organise the layout of the page into blocks">
+  <meta name="og:description" content="Organise the layout of the page into blocks">
+  <link rel="canonical" href="https://design-system.service.gov.uk/styles/layout/" />
+  <!--[if lt IE 9]>
+    <link href="/stylesheets/main-ie8-070b6278fbfcc7f254a5f4f3b92e38c3.css" rel="stylesheet" media="all" />
+    <script src="/javascripts/head-ie8-a371085ca251931cc9b5360c7da328f6.js"></script>
+  <![endif]-->
+  <!--[if !IE 8]><!-->
+  <link href="./stylesheets/styles.css" rel="stylesheet" media="all" />
+  <!--<![endif]-->
+  <script src="./javascript/script.js"></script>
+
+  <meta property="og:image" content="https://design-system.service.gov.uk/assets/images/govuk-opengraph-image.png">
+</head>
+
+<body class="govuk-template__body ">
+  <script>document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+
+  <a href="#main-content" class="govuk-skip-link">Skip to main content</a>
+
+  <div class="app-pane app-pane--enabled" id="top">
+    <header class="govuk-header app-header" role="banner" data-module="govuk-header">
+      <div class="govuk-header__container app-width-container app-header__container">
+        <div class="govuk-header__logo app-header__logo">
+          <a href="/" class="govuk-header__link govuk-header__link--homepage">
+            <span class="govuk-header__product-name">
+              Cloud Centre of Excellence
+            </span>
+          </a>
+        </div>
+        <div class="app-site-search" data-module="app-search"
+          data-search-index="/search-index-e675b1e463f677c88b84bbabe62f6038.json">
+          <label class="govuk-visually-hidden" for="app-site-search__input">Search Design system</label>
+          <a class="app-site-search__link govuk-link" href="/sitemap">Sitemap</a>
+        </div>
+        <div class="app-header-mobile-nav-toggler-wrapper">
+          <button id="app-mobile-nav-toggler"
+            class="govuk-button app-header-mobile-nav-toggler js-app-mobile-nav-toggler" aria-controls="app-mobile-nav">
+            Menu
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- <nav id="app-mobile-nav" class="app-mobile-nav js-app-mobile-nav" role="navigation">
+      <ul class="app-mobile-nav__list">
+
+        <li>
+          <div class="app-mobile-nav-subnav-toggler">
+            <a class="govuk-link govuk-link--no-visited-state app-mobile-nav-subnav-toggler__link js-mobile-nav-subnav-toggler"
+              href="/get-started/">
+              Get started
+            </a>
+          </div>
+
+          <ul class="app-mobile-nav__list app-mobile-nav__subnav js-app-mobile-nav-subnav " aria-label="Get started">
+            <li class="app-mobile-nav__subnav-item">
+              <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/get-started/">
+                Get started overview
+              </a>
+            </li>
+
+            <li>
+
+              <h4 class="app-mobile-nav__theme">Setup guides</h4>
+
+              <ul class="app-mobile-nav__list">
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/get-started/prototyping/">
+                    Prototyping
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/get-started/production/">
+                    Production
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+            <li>
+
+              <h4 class="app-mobile-nav__theme">How to guides</h4>
+
+              <ul class="app-mobile-nav__list">
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/get-started/updating-your-code/">
+                    Replace variables, functions and mixins from our old frameworks
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/get-started/labels-legends-headings/">
+                    Making labels and legends headings
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/get-started/extending-and-modifying-components/">
+                    Extending and modifying components in production
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/get-started/focus-states/">
+                    Understanding focus state styles
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li>
+          <div class="app-mobile-nav-subnav-toggler app-mobile-nav__subnav-toggler--active">
+            <a class="govuk-link govuk-link--no-visited-state app-mobile-nav-subnav-toggler__link js-mobile-nav-subnav-toggler"
+              href="/styles/">
+              Styles
+            </a>
+          </div>
+
+          <ul
+            class="app-mobile-nav__list app-mobile-nav__subnav js-app-mobile-nav-subnav app-mobile-nav__subnav--active"
+            aria-label="Styles">
+            <li class="app-mobile-nav__subnav-item">
+              <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/styles/">
+                Styles overview
+              </a>
+            </li>
+
+            <li>
+
+              <ul class="app-mobile-nav__list">
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/styles/colour/">
+                    Colour
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/styles/images/">
+                    Images
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item app-mobile-nav__subnav-item--current">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/styles/layout/">
+                    Layout
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/styles/page-template/">
+                    Page template
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/styles/spacing/">
+                    Spacing
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/styles/typography/">
+                    Typography
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li>
+          <div class="app-mobile-nav-subnav-toggler">
+            <a class="govuk-link govuk-link--no-visited-state app-mobile-nav-subnav-toggler__link js-mobile-nav-subnav-toggler"
+              href="/components/">
+              Components
+            </a>
+          </div>
+
+          <ul class="app-mobile-nav__list app-mobile-nav__subnav js-app-mobile-nav-subnav " aria-label="Components">
+            <li class="app-mobile-nav__subnav-item">
+              <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/components/">
+                Components overview
+              </a>
+            </li>
+
+            <li>
+
+              <ul class="app-mobile-nav__list">
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/components/accordion/">
+                    Accordion
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/components/back-link/">
+                    Back link
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/components/breadcrumbs/">
+                    Breadcrumbs
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/components/button/">
+                    Button
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/components/character-count/">
+                    Character count
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/components/checkboxes/">
+                    Checkboxes
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/components/date-input/">
+                    Date input
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/components/details/">
+                    Details
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/components/error-message/">
+                    Error message
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/components/error-summary/">
+                    Error summary
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/components/fieldset/">
+                    Fieldset
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/components/file-upload/">
+                    File upload
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/components/footer/">
+                    Footer
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/components/header/">
+                    Header
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/components/inset-text/">
+                    Inset text
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/components/notification-banner/">
+                    Notification banner
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/components/panel/">
+                    Panel
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/components/phase-banner/">
+                    Phase banner
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/components/radios/">
+                    Radios
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/components/select/">
+                    Select
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/components/skip-link/">
+                    Skip link
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/components/summary-list/">
+                    Summary list
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/components/table/">
+                    Table
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/components/tabs/">
+                    Tabs
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/components/tag/">
+                    Tag
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/components/text-input/">
+                    Text input
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/components/textarea/">
+                    Textarea
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/components/warning-text/">
+                    Warning text
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li>
+          <div class="app-mobile-nav-subnav-toggler">
+            <a class="govuk-link govuk-link--no-visited-state app-mobile-nav-subnav-toggler__link js-mobile-nav-subnav-toggler"
+              href="/patterns/">
+              Patterns
+            </a>
+          </div>
+
+          <ul class="app-mobile-nav__list app-mobile-nav__subnav js-app-mobile-nav-subnav " aria-label="Patterns">
+            <li class="app-mobile-nav__subnav-item">
+              <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/patterns/">
+                Patterns overview
+              </a>
+            </li>
+
+            <li>
+
+              <h4 class="app-mobile-nav__theme">Ask users for…</h4>
+
+              <ul class="app-mobile-nav__list">
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/patterns/addresses/">
+                    Addresses
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/patterns/bank-details/">
+                    Bank details
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/patterns/dates/">
+                    Dates
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/patterns/email-addresses/">
+                    Email addresses
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/patterns/ethnic-group/">
+                    Ethnic groups
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/patterns/gender-or-sex/">
+                    Gender or sex
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/patterns/names/">
+                    Names
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/patterns/national-insurance-numbers/">
+                    National Insurance numbers
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/patterns/passwords/">
+                    Passwords
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/patterns/payment-card-details/">
+                    Payment card details
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/patterns/telephone-numbers/">
+                    Telephone numbers
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+            <li>
+
+              <h4 class="app-mobile-nav__theme">Help users to…</h4>
+
+              <ul class="app-mobile-nav__list">
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/patterns/check-a-service-is-suitable/">
+                    Check a service is suitable
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/patterns/check-answers/">
+                    Check answers
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/patterns/confirm-an-email-address/">
+                    Confirm an email address
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/patterns/contact-a-department-or-service-team/">
+                    Contact a department or service team
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/patterns/create-a-username/">
+                    Create a username
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/patterns/create-accounts/">
+                    Create accounts
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/patterns/validation/">
+                    Recover from validation errors
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+            <li>
+
+              <h4 class="app-mobile-nav__theme">Pages</h4>
+
+              <ul class="app-mobile-nav__list">
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/patterns/confirmation-pages/">
+                    Confirmation pages
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/patterns/page-not-found-pages/">
+                    Page not found pages
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/patterns/problem-with-the-service-pages/">
+                    There is a problem with the service pages
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/patterns/question-pages/">
+                    Question pages
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/patterns/service-unavailable-pages/">
+                    Service unavailable pages
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/patterns/start-pages/">
+                    Start pages
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/patterns/step-by-step-navigation/">
+                    Step by step navigation
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/patterns/task-list-pages/">
+                    Task list pages
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li>
+          <div class="app-mobile-nav-subnav-toggler">
+            <a class="govuk-link govuk-link--no-visited-state app-mobile-nav-subnav-toggler__link js-mobile-nav-subnav-toggler"
+              href="/community/">
+              Community
+            </a>
+          </div>
+
+          <ul class="app-mobile-nav__list app-mobile-nav__subnav js-app-mobile-nav-subnav " aria-label="Community">
+            <li class="app-mobile-nav__subnav-item">
+              <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/community/">
+                Community overview
+              </a>
+            </li>
+
+            <li>
+
+              <ul class="app-mobile-nav__list">
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/community/resources-and-tools/">
+                    Resources and tools
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link" href="/community/backlog/">
+                    Backlog
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/community/propose-a-content-change-using-github/">
+                    Propose a content change using GitHub
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/community/propose-a-component-or-pattern/">
+                    Propose a component or pattern
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/community/develop-a-component-or-pattern/">
+                    Develop a component or pattern
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/community/contribution-criteria/">
+                    Contribution criteria
+                  </a>
+                </li>
+
+                <li class="app-mobile-nav__subnav-item">
+                  <a class="govuk-link govuk-link--no-visited-state app-mobile-nav__link"
+                    href="/community/design-system-working-group/">
+                    Design System working group
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+          </ul>
+
+        </li>
+
+      </ul>
+    </nav> -->
+
+    <div class="app-phase-banner__wrapper">
+
+      <div class="govuk-phase-banner app-phase-banner app-width-container">
+        <p class="govuk-phase-banner__content">
+          <strong class="govuk-tag govuk-phase-banner__content__tag">
+            alpha
+          </strong>
+          <span class="govuk-phase-banner__text">
+            This is a new service – your <a class="govuk-link" href="feedback_page.html">feedback</a> will help us to
+            improve it.
+          </span>
+        </p>
+      </div>
+
+    </div>
+
+    <nav class="app-navigation govuk-clearfix">
+      <ul class="app-navigation__list app-width-container">
+
+        <li class="app-navigation__list-item">
+          <a class="govuk-link govuk-link--no-visited-state app-navigation__link" href="index.html"
+            data-topnav="Get started">HO - CCoE</a>
+        </li>
+
+        <li class="app-navigation__list-item">
+          <a class="govuk-link govuk-link--no-visited-state app-navigation__link" href="cloud_training.html"
+            data-topnav="Styles">Cloud training</a>
+        </li>
+
+        <li class="app-navigation__list-item app-navigation__list-item--current">
+          <a class="govuk-link govuk-link--no-visited-state app-navigation__link" href="cloud_guidance.html"
+            data-topnav="Components">Cloud guidance</a>
+        </li>
+
+        <li class="app-navigation__list-item">
+          <a class="govuk-link govuk-link--no-visited-state app-navigation__link" href="public_cloud_services.html"
+            data-topnav="Patterns">Public cloud services</a>
+        </li>
+
+      </ul>
+    </nav>
+
+    <div class="app-pane__body app-width-container">
+      <div class="app-pane__subnav">
+        <nav class="app-subnav">
+
+          <h4 id="side-nav" class="app-subnav__theme">Operational excellence</h4>
+          <ul class="app-subnav__section">
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+                href="operational_guidance-pg1.html">Operational excellence pillar</a>
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+                href="operational_guidance-pg2.html">AWS organisations</a>
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+                href="operational_guidance-pg3.html">Tagging standards</a>
+            </li>
+          </ul>
+
+          <h4 class="app-subnav__theme">Security</h4>
+          <ul class="app-subnav__section">
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+                href="security_guidance-pg1.html">Security pillar</a>
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+                href="security_guidance-pg2.html">Cloud shared responsibility model</a>
+            </li>
+
+            <li class="app-subnav__section-item app-subnav__section-item--current">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+                href="security_guidance-pg3.html">Access keys</a>
+            </li>
+          </ul>
+
+          <h4 class="app-subnav__theme">Reliability</h4>
+          <ul class="app-subnav__section">
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+                href="reliability_guidance-pg1.html">Reliability pillar</a>
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+                href="reliability_guidance-pg2.html">AWS Enterprise support</a>
+            </li>
+          </ul>
+
+          <h4 class="app-subnav__theme">Performance Efficiency</h4>
+          <ul class="app-subnav__section">
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+                href="performance_guidance-pg1.html">Performance efficiency pillar</a>
+            </li>
+          </ul>
+
+          <h4 class="app-subnav__theme">Cost Optimisation</h4>
+          <ul class="app-subnav__section">
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="cost_guidance-pg1.html">Cost
+                optimisation pillar</a>
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state" href="cost_guidance-pg2.html">Cost
+                Optimisation standards</a>
+            </li>
+
+            <li class="app-subnav__section-item">
+              <a class="app-subnav__link govuk-link govuk-link--no-visited-state"
+                href="cost_guidance-pg3.html">Recharging and finance guidance</a>
+            </li>
+          </ul>
+
+        </nav>
+
+      </div>
+
+      <!-- Start of main body -->
+      <div class="app-pane__content">
+        <main id="main-content" class="app-content" role="main">
+
+          <div class="govuk-grid-row">
+
+            <div class="govuk-breadcrumbs ">
+              <ol class="govuk-breadcrumbs__list">
+                <li class="govuk-breadcrumbs__list-item">
+                  <a class="govuk-breadcrumbs__link" href="index.html">Home</a>
+                </li>
+                <li class="govuk-breadcrumbs__list-item">
+                  <a class="govuk-breadcrumbs__link" href="cloud_guidance.html">Cloud guidance</a>
+                </li>
+                </li>
+                <li class="govuk-breadcrumbs__list-item">
+                  <a class="govuk-breadcrumbs__link" href="security_guidance-pg3.html">Access keys</a>
+                </li>
+              </ol>
+            </div>
+
+            <span class="govuk-caption-xl">Security</span>
+            <h1 id="h1_title" class="govuk-heading-xl">Access keys</h1>
+
+            <p class="govuk-body">This page is for Amazon Web Services (AWS) Identity and Access Management (IAM) Home
+              Office cloud users. All cloud users in the Home Office are IAM users as their account is managed by the
+              Public Cloud Team (PCT).</p>
+
+            <p class="govuk-body">This content explains:</p>
+
+            <ul class="govuk-list govuk-list--bullet govuk-list--spaced">
+              <li>what access keys are</li>
+              <li>how to rotate your access keys</li>
+              <li>the Home Office access key policy</li>
+              <li>access keys for AWS services</li>
+              <li>the difference between long-lived and temporary access keys</li>
+            </ul>
+            <!-- Hidden back to nav link </a> -->
+            <a href="#side-nav" class="govuk-skip-link">Back to side navigation</a>
+
+            <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+
+            <h2 class="govuk-heading-l">What are access keys?</h2>
+            <p class="govuk-body">AWS access keys are long-term credentials for IAM users. Access keys consist of an ID
+              and a secret and provide programmatic access. Programmatic access is for services access, for example
+              theS3 Bucket. Programmatic access is used to automate processes and actions to allow services to interact
+              with Amazon. Access keys can be used to sign programmatic requests to the AWS Command Line Interface (CLI)
+              or AWS Application Programming Interface (API).</p>
+
+            <!-- Hidden back to nav link </a> -->
+            <a href="#side-nav" class="govuk-skip-link">Back to side navigation</a>
+
+            <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+
+            <h2 class="govuk-heading-l">Rotating access keys</h2>
+
+            <p class="govuk-body">Follow the AWS step-by-step guidance for <a
+                href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_RotateAccessKey">rotating
+                access keys</a>. If you need to make any changes to your account, you can view guidance on <a
+                href="aws_iam_account_requests-pg3.html">how to raise a request with the Public Cloud Team</a>.</p>
+
+            <p class="govuk-body">You should rotate your access keys because:</p>
+
+            <ul class="govuk-list govuk-list--bullet govuk-list--spaced">
+              <li>Access keys older than 90 days are a security risk to the Home Office. The Public Cloud Team (PCT) are
+                carrying out daily audits to find users that have access keys older than 90 days.</li>
+              <li>AWS set rotating access keys in their <a
+                  href="https://aws.amazon.com/blogs/security/top-10-security-items-to-improve-in-your-aws-account/">top
+                  10 security items</a>.</li>
+              <li>The <a href="https://d1.awsstatic.com/whitepapers/compliance/AWS_CIS_Foundations_Benchmark.pdf">CIS
+                  AWS Foundation Benchmark</a> states you must rotate access keys to ensure that data cannot be accessed
+                with an old key which might have been lost, cracked, or stolen. One of the main risks is it provides a
+                window of opportunity for someone to use the keys. Rotating the keys reduces the window of opportunity
+                smaller and stops ongoing access.</li>
+            </ul>
+
+            <!-- Hidden back to nav link </a> -->
+            <a href="#side-nav" class="govuk-skip-link">Back to side navigation</a>
+
+            <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+
+            <h2 class="govuk-heading-l">Home Office access key policy</h2>
+
+            <ul class="govuk-list govuk-list--bullet govuk-list--spaced">
+              <li>The PCT are implementing the following policy for access keys, to reduce the risks to the Home Office.
+                We will not force business areas to follow the policy. The policy allows us to highlight where there are
+                potential risks in the organisation.</li>
+              <li>Only create AWS access keys where there is a clear need for programmatic access.</li>
+              <li>Use temporary access keys when possible.</li>
+              <li>Rotate access keys at least every 90 days.</li>
+              <li>Never share an access key with people that do not need it.</li>
+              <li>Store access keys securely and approved as part of a service's security assurance.</li>
+              <li>Do not embed access keys directly into code or repositories.</li>
+              <li>Tools provided by the AWS SDK and command line tools (for example, AWS credentials file) should be
+                used instead. For more information, see the <a
+                  href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_use-resources.html">AWS
+                  documentation for using temporary credentials</a>.</li>
+              <li>If an AWS access key is published to the internet (for example, GitHub), shared or lost you should
+                follow the relevant incident management process. You should notify the <a
+                  href="mailto:public.cloud@homeoffice.gov.uk">public.cloud@homeoffice.gov.uk</a> immediately. Make the
+                affected access key inactive and delete it.</li>
+              <li>You should limit permissions for individual users, services or applications using AWS access keys. You
+                should base access on least privilege and regularly review access. Administrative permissions should be
+                given as a last resort.</li>
+              <li>Any IAM user that has programmatic access must enable Multi Factor Authentication (MFA).</li>
+            </ul>
+
+            <!-- Hidden back to nav link </a> -->
+            <a href="#side-nav" class="govuk-skip-link">Back to side navigation</a>
+
+            <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+
+            <h2 class="govuk-heading-l">How to use access keys in different AWS services</h2>
+
+            <h3 class="govuk-heading-m">Amazon EC2</h3>
+
+            <p class="govuk-body">Where an application or AWS CLI script is running on an EC2 instance do not use access
+              keys directly in the application. Instead define an IAM role that has the appropriate permissions for your
+              application and attach the role to the EC2 instance. For applications using the AWS SDKs and CLI
+              temporary, credentials are retrieved from the role automatically. For more information, see the <a
+                href="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/iam-roles-for-amazon-ec2.html">IAM roles for
+                EC2 documentation</a>.</p>
+
+            <h3 class="govuk-heading-m">AWS Lambda</h3>
+
+            <p class="govuk-body">Each Lambda function has an execution role created in IAM that provides the function
+              with the necessary permissions to run. When using the AWS SDKs, the temporary credentials are
+              automatically retrieved from the execution role. Do not use long-lived AWS access keys when using Lambda,
+              including providing them using the environmental variables. For more information, see the <a
+                href="https://docs.aws.amazon.com/lambda/latest/dg/lambda-intro-execution-role.html">AWS Lambda
+                execution role documentation</a>.</p>
+
+            <h3 class="govuk-heading-m">IAM Users</h3>
+
+            <p class="govuk-body">Most IAM users do not need access keys that provide them with high levels of
+              permissions, or multiple access keys to access multiple AWS accounts. Following best practice, IAM users
+              should instead be provided with a single AWS access key that provides a minimal level of access. This
+              reduces the risk if credentials are exposed.</p>
+
+            <!-- Hidden back to nav link </a> -->
+            <a href="#side-nav" class="govuk-skip-link">Back to side navigation</a>
+
+            <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+
+            <h2 class="govuk-heading-l">Temporary access keys</h2>
+
+            <p class="govuk-body">AWS recommends the use of temporary access keys through the use of the Security Token
+              Service (STS) instead of using long term access keys. The STS can create and provide trusted users with
+              temporary security credentials that can control access to your AWS resources.</p>
+
+            <p class="govuk-body">This is a new service and the Home Office has access keys embedded into services. This
+              is fine as long as they are being rotated regularly. STS should be used where possible as they can be
+              configured to last for anywhere from a few minutes to several hours. This is more secure because if
+              credentials are stolen then they automatically expire after a short time.</p>
+
+            <p class="govuk-body">For more information on STS view <a
+                href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp.html">AWS temporary security
+                credentials</a> and <a
+                href="https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use_revoke-sessions.html">revoking IAM
+                role temporary security credentials</a>.</p>
+
+            <!-- Hidden back to nav link </a> -->
+            <a href="#side-nav" class="govuk-skip-link">Back to side navigation</a>
+
+            <hr class="govuk-section-break govuk-section-break--m govuk-section-break--visible">
+
+            <a href="#top" class="govuk-link">Back to top</a>
+
+          </div>
+
+        </main>
+
+      </div>
+
+      <!-- <div class="app-back-to-top app-back-to-top--hidden" data-module="app-back-to-top">
+        <a class="govuk-link govuk-link--no-visited-state app-back-to-top__link" href="#top">
+          <svg role="presentation" focusable="false" class="app-back-to-top__icon" xmlns="http://www.w3.org/2000/svg"
+            width="13" height="17" viewBox="0 0 13 17">
+            <path fill="currentColor" d="M6.5 0L0 6.5 1.4 8l4-4v12.7h2V4l4.3 4L13 6.4z"></path>
+          </svg>Back to top
+        </a>
+      </div> -->
+
+    </div>
+
+    <footer class="govuk-footer app-footer app-footer--full" role="contentinfo">
+      <div class="govuk-width-container app-width-container">
+
+        <div class="govuk-footer__navigation">
+
+          <div class="govuk-footer__section">
+            <h2 class="govuk-footer__heading govuk-heading-m">Related resources</h2>
+
+            <ul class="govuk-footer__list govuk-footer__list--columns-1">
+
+              <li class="govuk-footer__list-item">
+                <a class="govuk-footer__link" href="https://www.gov.uk/guidance/government-design-principles">
+                  Government Design Principles
+                </a>
+              </li>
+
+              <li class="govuk-footer__list-item">
+                <a class="govuk-footer__link" href="https://www.gov.uk/service-manual">
+                  GOV.UK Service Manual
+                </a>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+        <hr class="govuk-footer__section-break">
+
+        <div class="govuk-footer__meta">
+          <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+
+            <h2 class="govuk-visually-hidden">Support links</h2>
+
+            <ul class="govuk-footer__inline-list">
+
+              <li class="govuk-footer__inline-list-item">
+                <a class="govuk-footer__link" href="/accessibility">
+                  Accessibility
+                </a>
+              </li>
+
+              <li class="govuk-footer__inline-list-item">
+                <a class="govuk-footer__link" href="/sitemap">
+                  Sitemap
+                </a>
+              </li>
+
+              <li class="govuk-footer__inline-list-item">
+                <a class="govuk-footer__link" href="/privacy-policy">
+                  Privacy policy
+                </a>
+              </li>
+
+            </ul>
+
+            <div class="govuk-footer__meta-custom">
+              Built by the <a href="/design-system-team" class="govuk-footer__link">GOV.UK Design System team</a>
+            </div>
+
+            <svg aria-hidden="true" focusable="false" class="govuk-footer__licence-logo"
+              xmlns="http://www.w3.org/2000/svg" viewBox="0 0 483.2 195.7" height="17" width="41">
+              <path fill="currentColor"
+                d="M421.5 142.8V.1l-50.7 32.3v161.1h112.4v-50.7zm-122.3-9.6A47.12 47.12 0 0 1 221 97.8c0-26 21.1-47.1 47.1-47.1 16.7 0 31.4 8.7 39.7 21.8l42.7-27.2A97.63 97.63 0 0 0 268.1 0c-36.5 0-68.3 20.1-85.1 49.7A98 98 0 0 0 97.8 0C43.9 0 0 43.9 0 97.8s43.9 97.8 97.8 97.8c36.5 0 68.3-20.1 85.1-49.7a97.76 97.76 0 0 0 149.6 25.4l19.4 22.2h3v-87.8h-80l24.3 27.5zM97.8 145c-26 0-47.1-21.1-47.1-47.1s21.1-47.1 47.1-47.1 47.2 21 47.2 47S123.8 145 97.8 145" />
+            </svg>
+            <span class="govuk-footer__licence-description">
+              All content is available under the
+              <a class="govuk-footer__link"
+                href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" rel="license">Open
+                Government Licence v3.0</a>, except where otherwise stated
+            </span>
+          </div>
+          <div class="govuk-footer__meta-item">
+            <a class="govuk-footer__link govuk-footer__copyright-logo"
+              href="https://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/">©
+              Crown copyright</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="./javascript/govuk-frontend.js"></script>
+  <!--[if !IE 8]><!-->
+  <script src="./javascript/application.js"></script>
+  <!--<![endif]-->
+  <!--[if lt IE 9]>
+    <script src="/javascripts/application-ie8-5a2cfeaee9daeca7d49c5835fd89f009.js"></script>
+  <![endif]-->
+
+</body>
+
+</html>
